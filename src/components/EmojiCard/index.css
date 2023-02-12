@@ -1,0 +1,18 @@
+/* Write your code here. */
+.emoji-btn {
+  border: 2px solid #ffffff30;
+  border-radius: 20px;
+  background-color: #ffffff33;
+  padding: 40px;
+  margin: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.emoji-item {
+  list-style-type: none;
+}
+@media screen and (max-width: 767px) {
+  .emoji-btn {
+    padding: 20px;
+  }
+}

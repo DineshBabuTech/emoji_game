@@ -1,0 +1,48 @@
+/* Write your code here. */
+.win-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border: 2px solid #ffffff30;
+  background-color: #ffffff33;
+  padding: 40px;
+  border-radius: 20px;
+}
+.text-cont {
+  font-family: 'Roboto';
+  text-align: center;
+  margin-right: 20px;
+}
+.title {
+  color: #ffffff;
+  font-size: 70px;
+}
+.descript {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.num {
+  color: #6a59ff;
+  font-size: 55px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.play-btn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 600;
+  padding: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+}

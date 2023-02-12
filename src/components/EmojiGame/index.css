@@ -1,0 +1,25 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  padding-bottom: 30px;
+}
+.res-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  margin-top: 50px;
+  padding-left: 0px;
+}
+@media screen and (max-width: 767px) {
+  .emoji-container {
+    width: 80vw;
+  }
+}
